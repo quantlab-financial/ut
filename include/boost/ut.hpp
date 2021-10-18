@@ -13,7 +13,7 @@ export import std;
 #endif
 
 #if defined(_MSC_VER)
-#include <ciso646>  // and, or, not
+#include <iso646.h>  // and, or, not
 #endif
 
 #if not defined(__cpp_rvalue_references)
